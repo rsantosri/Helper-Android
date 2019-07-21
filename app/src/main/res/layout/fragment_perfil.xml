@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".perfil">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre del usuario"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/categorias_r"
+            android:layout_marginBottom="10dp"/>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/cardview"
+            android:scrollbars="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="12dp">
+
+
+            <ImageView
+                android:id="@+id/imgCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/placeholder" />
+
+            <Button
+                android:id="@+id/btnCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@color/blackTransparent"
+                android:text="@string/title_category1"
+                android:textColor="@color/colorAccent"
+                android:textSize="28sp" />
+            <TextView
+                android:id="@+id/idCategoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnAgregarCategoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_category"
+            android:theme="@style/PrimaryFlatButton" />
+
+    </LinearLayout>
+</FrameLayout>

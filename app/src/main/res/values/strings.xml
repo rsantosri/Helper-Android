@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Helper</string>
+    <string name="log_in">Login</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Buscar</string>
+    <string name="title_profile">Perfil</string>
+    <string name="more">Ver más</string>
+    <string name="solicitar">Solicitar servicio</string>
+
+    <string name="title_category1">Plomeria</string>
+
+    <string name="plomero_1_name">El plomero willy</string>
+    <string name="plomero_1_descripcion">El plomero willy se encarga de arregalr todo tipo de problemas</string>
+    <string name="plomero_1_precio">$$$</string>
+    <string name="servicios">Servicios disponibles:</string>
+    <string name="registrarse">¿No tienes una cuenta? Registrarse</string>
+    <string name="iniciar">¿Ya tienes una cuenta? Login</string>
+    <string name="errorLogin">Correo o contraseña incorrecto</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="cuenta_existente">Ya existe una cuenta con esos datos</string>
+    <string name="costo">Costo promedio: </string>
+    <string name="usuario">Elige el tipo de usuario:</string>
+    <string name="usuario_tipo_1">Proveedor</string>
+    <string name="usuario_tipo_2">Cliente</string>
+    <string name="categorias_r">Categorias registradas</string>
+    <string name="add_offer">Agregar Oferta</string>
+    <string name="name_offer">Nombre oferta</string>
+    <string name="desc_offer">Decripción de la oferta</string>
+    <string name="price_offer">Costo de la oferta</string>
+    <string name="add_image">Agregar imágen</string>
+    <string name="add">Agregar</string>
+    <string name="add_provider">Agregar proveedor</string>
+    <string name="name_provider">Nombre proveedor</string>
+    <string name="desc_provider">Descripción proveedor</string>
+    <string name="add_category">Agregar categoria</string>
+    <string name="direction">Dirección</string>
+    <string name="date">Indique la fecha del servicio</string>
+    <string name="ok">Aceptar</string>
+
+    <string name="terminar">Terminar solicitud</string>
+
+</resources>
